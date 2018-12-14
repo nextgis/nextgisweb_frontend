@@ -1,11 +1,11 @@
 {
   "name": "@nextgis/mapboxgl-map-adapter",
-  "version": "0.8.12",
+  "version": "0.8.13",
   "description": "",
   "main": "lib/mapboxgl-map-adapter.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/webmap": "^0.8.11",
+    "@nextgis/webmap": "^0.8.13",
     "events": "*",
     "mapbox-gl": "*"
   },
