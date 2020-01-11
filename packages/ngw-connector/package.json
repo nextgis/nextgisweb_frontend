@@ -1,6 +1,6 @@
 {
   "name": "@nextgis/ngw-connector",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "_priority": 12,
   "description": "Module for interaction with NGW (NextGis Web) server API",
   "main": "lib/ngw-connector.js",
@@ -10,7 +10,7 @@
     "events": "^3.1.0"
   },
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/node": "^13.1.6",
     "eslint-loader": "^3.0.3",

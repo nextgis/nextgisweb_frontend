@@ -1,18 +1,18 @@
 {
   "name": "@nextgis/ngw-uploader",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "_priority": 13,
   "description": "",
   "main": "lib/ngw-uploader.js",
   "unpkg": "lib/ngw-uploader.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/dialog": "^0.22.0",
-    "@nextgis/ngw-connector": "^0.22.0",
+    "@nextgis/dialog": "^0.23.0",
+    "@nextgis/ngw-connector": "^0.23.0",
     "events": "^3.1.0"
   },
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/node": "^13.1.6",
     "base64-inline-loader": "^1.1.1",

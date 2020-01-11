@@ -1,6 +1,6 @@
 {
   "name": "@nextgis/item",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Hierarchical layers control",
   "main": "lib/item.js",
   "unpkg": "lib/item.js",
@@ -9,7 +9,7 @@
     "events": "^3.1.0"
   },
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/node": "^13.1.6",
     "eslint-loader": "^3.0.3",

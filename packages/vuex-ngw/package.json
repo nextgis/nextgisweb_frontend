@@ -1,13 +1,13 @@
 {
   "name": "@nextgis/vuex-ngw",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Development tools",
   "main": "lib/vuex-ngw.js",
   "unpkg": "lib/vue-ngw.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/ngw-connector": "^0.22.0",
-    "@nextgis/webmap": "^0.22.0",
+    "@nextgis/ngw-connector": "^0.23.0",
+    "@nextgis/webmap": "^0.23.0",
     "@types/wellknown": "^0.5.0",
     "reproject": "^1.2.5",
     "vue": "^2.6.11",
@@ -17,7 +17,7 @@
     "wellknown": "^0.5.0"
   },
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/node": "^13.1.6",
     "css-loader": "^3.4.2",

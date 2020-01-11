@@ -1,13 +1,13 @@
 {
   "name": "@nextgis/leaflet-map-adapter",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "_priority": 15,
   "description": "",
   "main": "lib/leaflet-map-adapter.js",
   "unpkg": "lib/leaflet-map-adapter.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/webmap": "^0.22.0",
+    "@nextgis/webmap": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/leaflet": "^1.5.7",
     "@types/node": "^13.1.6",
@@ -17,7 +17,7 @@
     "leaflet.wms": "^0.2.0"
   },
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "eslint-loader": "^3.0.3",
     "rimraf": "^3.0.0",
     "ts-loader": "^6.2.1",

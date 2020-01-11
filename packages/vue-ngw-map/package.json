@@ -1,20 +1,20 @@
 {
   "name": "@nextgis/vue-ngw-map",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Development tools",
   "main": "lib/vue-ngw-map.js",
   "unpkg": "lib/vue-ngw-map.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/leaflet-map-adapter": "^0.22.0",
-    "@nextgis/ngw-map": "^0.22.0",
+    "@nextgis/leaflet-map-adapter": "^0.23.0",
+    "@nextgis/ngw-map": "^0.23.0",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.0",
     "vue-property-decorator": "^8.3.0",
     "vuex-module-decorators": "^0.11.0"
   },
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/node": "^13.1.6",
     "css-loader": "^3.4.2",

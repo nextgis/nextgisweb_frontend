@@ -1,12 +1,12 @@
 {
   "name": "@nextgis/utils",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "description": "Development tools",
   "main": "lib/utils.js",
   "unpkg": "lib/utils.js",
   "types": "lib/index.d.ts",
   "devDependencies": {
-    "@nextgis/eslint-config": "^0.22.0",
+    "@nextgis/eslint-config": "^0.23.0",
     "@types/events": "^3.0.0",
     "@types/node": "^13.1.6",
     "css-loader": "^3.4.2",
