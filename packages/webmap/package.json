@@ -28,9 +28,18 @@
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",
-    "prod": "npm run build",
+    "#prod": "npm run build",
+    "prod": "node ../build-tools/rollup.config.js",
     "watch": "npm run dev -- --watch",
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "buildOptions": {
+    "name": "WebMap",
+    "formats": [
+
+      "global"
+
+    ]
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,43 @@
+{
+  "name": "@nextgis/build-tools",
+  "version": "0.24.1",
+  "description": "",
+  "main": "lib/build-tools.js",
+  "unpkg": "lib/build-tools.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-replace": "^2.2.1",
+    "chalk": "^3.0.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.19.4",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-terser": "^5.1.1",
+    "rollup-plugin-typescript2": "^0.24.0",
+    "typescript": "^3.7.0"
+  },
+  "scripts": {
+    "clean": "exit 0",
+    "dev": "exit 0",
+    "build": "exit 0",
+    "prod": "exit 0",
+    "watch": "exit 0",
+    "test": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nextgis/nextgisweb_frontend.git"
+  },
+  "keywords": [
+    "NextGIS",
+    "MAP"
+  ],
+  "author": "NextGIS",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "LGPL-3.0"
+}
