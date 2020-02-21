@@ -1,6 +1,6 @@
 {
   "name": "@nextgis/ngw-kit",
-  "version": "0.25.5",
+  "version": "0.25.6",
   "_priority": 20,
   "description": "",
   "main": "lib/ngw-kit.js",
@@ -8,10 +8,10 @@
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/item": "^0.25.0",
-    "@nextgis/ngw-connector": "^0.25.5",
-    "@nextgis/qms-kit": "^0.25.5",
-    "@nextgis/utils": "^0.25.5",
-    "@nextgis/webmap": "^0.25.5",
+    "@nextgis/ngw-connector": "^0.25.6",
+    "@nextgis/qms-kit": "^0.25.6",
+    "@nextgis/utils": "^0.25.6",
+    "@nextgis/webmap": "^0.25.6",
     "@types/events": "^3.0.0",
     "strict-event-emitter-types": "^2.0.0"
   },

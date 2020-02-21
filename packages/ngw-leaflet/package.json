@@ -1,14 +1,14 @@
 {
   "name": "@nextgis/ngw-leaflet",
   "_priority": 10,
-  "version": "0.25.5",
+  "version": "0.25.6",
   "description": "",
   "main": "lib/ngw-leaflet.js",
   "unpkg": "lib/ngw-leaflet.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/leaflet-map-adapter": "^0.25.5",
-    "@nextgis/ngw-map": "^0.25.5",
+    "@nextgis/leaflet-map-adapter": "^0.25.6",
+    "@nextgis/ngw-map": "^0.25.6",
     "leaflet": "1.6.0",
     "leaflet.wms": "^0.2.0"
   },

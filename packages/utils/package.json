@@ -1,6 +1,6 @@
 {
   "name": "@nextgis/utils",
-  "version": "0.25.5",
+  "version": "0.25.6",
   "description": "Development tools",
   "main": "lib/utils.js",
   "unpkg": "lib/utils.js",

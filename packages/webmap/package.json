@@ -1,13 +1,13 @@
 {
   "name": "@nextgis/webmap",
-  "version": "0.25.5",
+  "version": "0.25.6",
   "_priority": 14,
   "description": "",
   "main": "lib/webmap.js",
   "unpkg": "lib/webmap.js",
   "types": "lib/index.d.ts",
   "dependencies": {
-    "@nextgis/utils": "^0.25.5",
+    "@nextgis/utils": "^0.25.6",
     "@types/geojson": "^7946.0.7",
     "events": "^3.1.0",
     "strict-event-emitter-types": "^2.0.0"
