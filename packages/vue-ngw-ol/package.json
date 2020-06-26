@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Development tools",
   "main": "lib/vue-ngw-ol.js",
-  "unpkg": "lib/vue-ngw-ol.js",
+  "module": "lib/vue-ngw-ol.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/ol-map-adapter": "^0.32.0",

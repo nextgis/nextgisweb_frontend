@@ -1,12 +1,6 @@
 {
   "extends": "../../tsconfig.json",
-  "compilerOptions": {
-    "outDir": "lib",
-
-    "declarationDir": "lib",
-  },
   "include": [
     "./src",
-    "__tests__/classes", "../dialog/src/DialogAdapter.ts"
   ]
 }

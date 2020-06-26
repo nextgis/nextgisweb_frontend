@@ -4,7 +4,9 @@
   "_priority": 11,
   "description": "",
   "main": "lib/ngw-map.js",
+  "module": "lib/ngw-map.esm.js",
   "unpkg": "lib/ngw-map.js",
+  "jsdelivr": "lib/ngw-map.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/icons": "^0.32.0",

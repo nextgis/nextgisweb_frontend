@@ -4,7 +4,9 @@
   "version": "0.32.0",
   "description": "",
   "main": "lib/ngw-ol.js",
-  "unpkg": "lib/ngw-ol.js",
+  "module": "lib/ngw-ol.esm.js",
+  "unpkg": "lib/ngw-ol.allinone.js",
+  "jsdelivr": "lib/ngw-ol.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/ngw-map": "^0.32.0",

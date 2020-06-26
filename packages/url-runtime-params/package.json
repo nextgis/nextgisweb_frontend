@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "",
   "main": "lib/url-runtime-params.js",
-  "unpkg": "lib/url-runtime-params.js",
+  "module": "lib/url-runtime-params.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/webmap": "^0.32.0"
@@ -12,7 +12,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

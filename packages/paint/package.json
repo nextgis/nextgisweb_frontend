@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Create style for vector layer",
   "main": "lib/paint.js",
-  "unpkg": "lib/paint.js",
+  "module": "lib/paint.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/properties-filter": "^0.32.0",

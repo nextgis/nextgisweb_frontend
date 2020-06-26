@@ -3,7 +3,9 @@
   "version": "0.32.0",
   "description": "Svg icon pack",
   "main": "lib/icons.js",
-  "unpkg": "lib/icons.js",
+  "module": "lib/icons.esm.js",
+  "unpkg": "lib/icons.allinone.js",
+  "jsdelivr": "lib/icons.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/paint": "^0.32.0"

@@ -4,7 +4,7 @@
   "_priority": 20,
   "description": "",
   "main": "lib/qms-kit.js",
-  "unpkg": "lib/qms-kit.js",
+  "module": "lib/qms-kit.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/utils": "^0.32.0",
@@ -14,7 +14,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

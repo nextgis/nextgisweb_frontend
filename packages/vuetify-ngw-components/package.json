@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Development tools",
   "main": "lib/vuetify-ngw-components.js",
-  "unpkg": "lib/vuetify-ngw-components.js",
+  "module": "lib/vuetify-ngw-components.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/leaflet-map-adapter": "^0.32.0",

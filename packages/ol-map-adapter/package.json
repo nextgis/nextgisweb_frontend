@@ -4,6 +4,7 @@
   "_priority": 16,
   "description": "",
   "main": "lib/ol-map-adapter.js",
+  "module": "lib/ol-map-adapter.esm.js",
   "unpkg": "lib/ol-map-adapter.js",
   "types": "lib/index.d.ts",
   "dependencies": {
@@ -18,7 +19,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

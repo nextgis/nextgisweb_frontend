@@ -3,6 +3,7 @@
   "version": "0.32.0",
   "description": "Hierarchical layers control",
   "main": "lib/item.js",
+  "module": "lib/item.esm.js",
   "unpkg": "lib/item.js",
   "types": "lib/index.d.ts",
   "dependencies": {

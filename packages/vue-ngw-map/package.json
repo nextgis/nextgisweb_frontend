@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Development tools",
   "main": "lib/vue-ngw-map.js",
-  "unpkg": "lib/vue-ngw-map.js",
+  "module": "lib/vue-ngw-map.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/leaflet-map-adapter": "^0.32.0",

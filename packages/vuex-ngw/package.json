@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Development tools",
   "main": "lib/vuex-ngw.js",
-  "unpkg": "lib/vue-ngw.js",
+  "module": "lib/vuex-ngw.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/ngw-connector": "^0.32.0",

@@ -3,6 +3,7 @@
   "version": "0.32.0",
   "description": "Placing control elements in the corners of the map container",
   "main": "lib/control-container.js",
+  "module": "lib/control-container.esm.js",
   "unpkg": "lib/control-container.js",
   "types": "lib/index.d.ts",
   "dependencies": {

@@ -3,7 +3,9 @@
   "version": "0.32.0",
   "description": "Development tools",
   "main": "lib/utils.js",
-  "unpkg": "lib/utils.js",
+  "module": "lib/utils.esm.js",
+  "unpkg": "lib/utils.allinone.js",
+  "jsdelivr": "lib/utils.allinone.js",
   "types": "lib/index.d.ts",
   "devDependencies": {
     "@nextgis/build-tools": "file:../build-tools"

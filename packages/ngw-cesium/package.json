@@ -3,7 +3,9 @@
   "version": "0.32.0",
   "description": "",
   "main": "lib/ngw-cesium.js",
-  "unpkg": "lib/ngw-cesium.js",
+  "module": "lib/ngw-cesium.esm.js",
+  "unpkg": "lib/ngw-cesium.allinone.js",
+  "jsdelivr": "lib/ngw-cesium.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/cesium-map-adapter": "^0.32.0",

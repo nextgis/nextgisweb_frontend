@@ -3,7 +3,9 @@
   "version": "0.32.0",
   "description": "Modal window management",
   "main": "lib/dialog.js",
-  "unpkg": "lib/dialog.js",
+  "module": "lib/dialog.esm.js",
+  "unpkg": "lib/dialog.allinone.js",
+  "jsdelivr": "lib/dialog.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/webmap": "^0.32.0",

@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Development tools",
   "main": "lib/vue-ngw-mapbox.js",
-  "unpkg": "lib/vue-ngw-mapbox.js",
+  "module": "lib/vue-ngw-mapbox.esm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/mapboxgl-map-adapter": "^0.32.0",

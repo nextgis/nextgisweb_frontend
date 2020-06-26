@@ -4,7 +4,9 @@
   "_priority": 20,
   "description": "",
   "main": "lib/ngw-kit.js",
+  "module": "lib/ngw-kit.esm.js",
   "unpkg": "lib/ngw-kit.js",
+  "jsdelivr": "lib/ngw-kit.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/item": "^0.32.0",
@@ -21,7 +23,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

@@ -4,7 +4,9 @@
   "version": "0.32.0",
   "description": "",
   "main": "lib/ngw-leaflet.js",
-  "unpkg": "lib/ngw-leaflet.js",
+  "module": "lib/ngw-leaflet.esm.js",
+  "unpkg": "lib/ngw-leaflet.allinone.js",
+  "jsdelivr": "lib/ngw-leaflet.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/leaflet-map-adapter": "^0.32.0",
@@ -16,7 +18,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

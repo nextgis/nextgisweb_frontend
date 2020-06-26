@@ -4,7 +4,9 @@
   "_priority": 12,
   "description": "Module for interaction with NGW (NextGis Web) server API",
   "main": "lib/ngw-connector.js",
-  "unpkg": "lib/ngw-connector.js",
+  "module": "lib/ngw-connector.esm.js",
+  "unpkg": "lib/ngw-connector.allinone.js",
+  "jsdelivr": "lib/ngw-connector.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/cancelable-promise": "^0.32.0",
@@ -15,7 +17,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

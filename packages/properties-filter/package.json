@@ -3,7 +3,7 @@
   "version": "0.32.0",
   "description": "Filtering objects by its properties using expressions",
   "main": "lib/properties-filter.js",
-  "unpkg": "lib/properties-filter.js",
+  "module": "lib/properties-filter.esm.js",
   "types": "lib/index.d.ts",
   "devDependencies": {
     "@nextgis/build-tools": "file:../build-tools"

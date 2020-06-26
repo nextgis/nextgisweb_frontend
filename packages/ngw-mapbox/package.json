@@ -4,7 +4,9 @@
   "version": "0.32.0",
   "description": "",
   "main": "lib/ngw-mapbox.js",
-  "unpkg": "lib/ngw-mapbox.js",
+  "module": "lib/ngw-mapbox.esm.js",
+  "unpkg": "lib/ngw-mapbox.allinone.js",
+  "jsdelivr": "lib/ngw-mapbox.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/mapboxgl-map-adapter": "^0.32.0",
@@ -17,7 +19,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",

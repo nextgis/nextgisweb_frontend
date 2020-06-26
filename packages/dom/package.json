@@ -3,7 +3,9 @@
   "version": "0.32.0",
   "description": "Collection of libraries for working with the DOM",
   "main": "lib/dom.js",
+  "module": "lib/dom.esm.js",
   "unpkg": "lib/dom.js",
+  "jsdelivr": "lib/dom.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "events": "^3.1.0"

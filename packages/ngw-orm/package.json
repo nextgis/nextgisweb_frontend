@@ -3,7 +3,9 @@
   "version": "0.32.0",
   "description": "NextGIS Web Object-Relational Mapping",
   "main": "lib/ngw-orm.js",
+  "module": "lib/ngw-orm.esm.js",
   "unpkg": "lib/ngw-orm.js",
+  "jsdelivr": "lib/ngw-orm.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/ngw-connector": "^0.32.0",

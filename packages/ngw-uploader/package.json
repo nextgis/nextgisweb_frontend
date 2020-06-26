@@ -4,7 +4,9 @@
   "_priority": 13,
   "description": "",
   "main": "lib/ngw-uploader.js",
-  "unpkg": "lib/ngw-uploader.js",
+  "module": "lib/ngw-uploader.esm.js",
+  "unpkg": "lib/ngw-uploader.allinone.js",
+  "jsdelivr": "lib/ngw-uploader.allinone.js",
   "types": "lib/index.d.ts",
   "dependencies": {
     "@nextgis/dialog": "^0.32.0",

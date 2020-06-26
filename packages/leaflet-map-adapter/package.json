@@ -4,6 +4,7 @@
   "_priority": 15,
   "description": "",
   "main": "lib/leaflet-map-adapter.js",
+  "module": "lib/leaflet-map-adapter.esm.js",
   "unpkg": "lib/leaflet-map-adapter.js",
   "types": "lib/index.d.ts",
   "dependencies": {
@@ -21,7 +22,6 @@
     "@nextgis/build-tools": "file:../build-tools"
   },
   "scripts": {
-    "mjs": "tsc -d --outDir ./lib/modules",
     "clean": "rimraf ./lib",
     "dev": "npm run clean && webpack --config ./webpack.config.js --progress",
     "build": "npm run dev -- --mode=production",
